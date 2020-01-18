@@ -1,0 +1,102 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - uses
+  - working
+  - battery
+  - thanks
+  # - button
+  # - reading
+  - correctness
+  - display
+  - setup
+
+entities:
+  - device
+  - battery_life
+  # - normal_reading
+  # - abnormal_reading
+  - reliability
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_usage
+- utter_working
+- utter_battery
+- utter_please
+# - utter_button
+# - utter_normalreading
+# - utter_abnormalreading
+- utter_correctness
+- utter_display
+- utter_setup
+
+templates:
+  utter_greet:
+  - text: "Hey! How can I you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+  utter_please:
+    - text: "Sorry,I couldn't help :/ 
+            Ask me something else"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  utter_usage:
+  - text: "For people with COPD, asthma, Congestive Heart Failure (CHF) and other conditions, pulse oximetry is a technology used to measure the oxygen level in your blood and your heart rate.
+           A finger pulse oximeter is equipped with technology to rapidly detect changes in your blood oxygen level."
+  utter_working:
+  - text: "During a pulse oximetry reading, a small clamp-like device is placed on a finger, earlobe, or toe. Small beams of light pass through the blood in the finger, measuring the amount of oxygen. 
+It does this by measuring changes of light absorption in oxygenated or deoxygenated blood. This is a painless process.
+The pulse oximeter will thus be able to tell you your oxygen saturation levels along with your heart rate."
+  utter_battery:
+  - text: "A fully charged battery should operate for at least 6 hours. A battery should take no more than 10 hours to charge, and charging should be possible while using the oximeter. 
+A display of residual charge and low battery alarms are essential when operating on battery power."
+#  utter_button:
+#    - text: "Tapping the button once gives four different viewing angles
+#  Holding the button for two seconds gives profusion Index(PI) in orange colour which indicates the strength of your pulse.
+#  After 10 seconds, the screen goes to default mode showing pulse reading"
+#    utter_abnormalreading:
+#   - text: "If the oxygen saturation is 94% or lower, the patient is hypoxic and needs to be treated quickly. A saturation of less than 90% is a clinical emergency.
+# Consult your doctor if your resting heart rate is consistently above 100 beats a minute (tachycardia) or if you're not a trained athlete
+# and your resting heart rate is below 60 beats a minute (bradycardia) — especially if you have other signs or symptoms, such as fainting, dizziness or shortness of breath.
+# When the readings dip below the normal values, an alarm will go off, indicating your immediate attention."
+#    utter_normalreading:
+#     - text: "Normal pulse oximeter readings for oxygen saturation usually range from 95 to 100 percent. 100%. I
+# A normal resting heart rate for adults ranges from 60 to 100 beats per minute and it ranges from 100 to 180 for babies aged 2 or less."
+  utter_correctness:
+    - text: "The oxygen level from a pulse oximeter is reasonably accurate. Most oximeters give a reading 2% over or 2% under what your saturation would be if obtained by an arterial blood gas."
+  utter_setup:
+    - text: "Turn the pulse oximeter on: it will go through internal calibration and checks. Once ready, wait for the device to power on and insert your finger into the scanner.
+After 5 seconds, you will see the readings in the display.Once the unit has detected a good pulse, the oxygen saturation and pulse rate will be displayed.
+If possible, avoid the arm being used for blood pressure monitoring as cuff inflation will interrupt
+the pulse oximeter signal.
+Remove any nail varnish. 
+Always make sure the alarms are on."
+  utter_display:
+    - text: "Number in yellow digits indicate the level of oxygen saturated blood. Since the oximeter detects the saturation
+peripherally on a finger, toe or ear, the result is recorded as the peripheral oxygen saturation, described as SpO2.
+Green shows the pulse. Some oximeters display a
+pulse waveform or indicator that illustrates the strength of the pulse being detected.
+The batter power is diplayed on the top."

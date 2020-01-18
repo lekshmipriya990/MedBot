@@ -1,0 +1,248 @@
+intent- greet
+User: 
+
+
+
+
+Intent - BATTERY
+
+User: 
+1.What is the battery life of an oximeter
+2.When does the charge drain in an oximeter
+3.Does oximeter battery run on low battery
+4.How long does it take for the battery to run out in an oximeter
+5.Oximeter not turning on***
+6.Oximeter doesn't work***
+
+
+Bot: A fully charged battery should operate for at least 6 hours. A battery should take no more than 10 hours to charge, and charging should be possible while using the oximeter. 
+A display of residual charge and low battery alarms are essential when operating on battery power.
+
+intent - BUTTON
+
+User:
+1.how to check the strength of the pulse on oximeter
+2.how to see the strength of the pulse on oximeter
+3.what does button on the oximeter indicate
+4.how to use the button on the oximeter
+5.what does button on the oximeter does
+
+Bot: 
+Tapping the button once gives four different viewing angles
+Holding the button for two seconds gives profusion Index(PI) in orange colour which indicates the strength of your pulse.
+After 10 seconds, the screen goes to default mode showing pulse reading
+
+intent - CORRECTNESS
+
+User:
+1.Is an oximeter reliable
+2.Is oximeter reading always correct.
+3.Can an oximeter show wrong results
+4.How accurate is the readings of a oximeter.
+5. Is it possible to say that the measurements in an oximeter is trust-worthy. ***
+
+Bot:
+The oxygen level from a pulse oximeter is reasonably accurate. Most oximeters give a reading 2% over or 2% under what your saturation would be if obtained by an arterial blood gas.
+
+Intent - READING 
+Entity - Normal_reading
+
+User:
+1.what are average readings on oximeter
+2.default readings of oximeter
+3.Normal readings of oximeter
+
+
+BOT:
+Normal pulse oximeter readings for oxygen saturation usually range from 95 to 100 percent. 100%. I
+A normal resting heart rate for adults ranges from 60 to 100 beats per minute and it ranges from 100 to 180 for babies aged 2 or less.
+
+
+
+User: 
+1. What should i do when the reading is below normal?***
+2. Procedure to follow when the display is not normal?***
+3. how can i know that the measurements is not good?***
+4.what are the Abnormal readings in an oximeter?
+5.what are the Alerting measurements in an oximeter? 
+6.When should I be worried about the readings?
+7.When should I consult a doctor with the readings?
+
+BOT:
+If the oxygen saturation is 94% or lower, the patient is hypoxic and needs to be treated quickly. A saturation of less than 90% is a clinical emergency.
+Consult your doctor if your resting heart rate is consistently above 100 beats a minute (tachycardia) or if you're not a trained athlete
+and your resting heart rate is below 60 beats a minute (bradycardia) — especially if you have other signs or symptoms, such as fainting, dizziness or shortness of breath.
+When the readings dip below the normal values, an alarm will go off, indicating your immediate attention.
+
+
+Intent- Display
+
+User:
+1.what are the numbers on oximeter shows
+2.what are the numbers on oximeter point out
+3.what are measurements of oximeter
+4.What does readings on the oximeter indicate?
+5.What are the display elements
+6.What does the graph indicate
+7.What does %SpO2 mean?
+8.what does bpmPR mean?
+9.Where is the power shown?
+10.What is displayed on a pulse oximeter screen?***
+
+
+BOT:
+Number in yellow digits indicate the level of oxygen saturated blood. Since the oximeter detects the saturation
+peripherally on a finger, toe or ear, the result is recorded as the peripheral oxygen saturation, described as SpO2.
+Green shows the pulse. Some oximeters display a
+pulse waveform or indicator that illustrates the strength of the pulse being detected.
+The batter power is diplayed on the top.
+
+Intent - SETUP
+
+User:
+1.how to set up the oximeter
+2.How to start the oximeter
+3. I want to use the oximeter***
+4. tell me how to use a oximeter***
+
+BOT:
+Turn the pulse oximeter on: it will go through internal calibration and checks. Once ready, wait for the device to power on and insert your finger into the scanner.
+After 5 seconds, you will see the readings in the display.Once the unit has detected a good pulse, the oxygen saturation and pulse rate will be displayed.
+If possible, avoid the arm being used for blood pressure monitoring as cuff inflation will interrupt
+the pulse oximeter signal.
+Remove any nail varnish. 
+Always make sure the alarms are on.
+
+
+
+Intent- USES
+
+User:
+1.what is the purpose of oximeter
+2.Why is oximeter used
+3.what are the uses of oximeter
+4.what are the Reasons to use oximeter
+5.What two things does a pulse oximeter measure?***
+6.Why should i use oximeter?***
+
+BOT:
+For people with COPD, asthma, Congestive Heart Failure (CHF) and other conditions, pulse oximetry is a technology used to measure the oxygen level in your blood and your heart rate.
+A finger pulse oximeter is equipped with technology to rapidly detect changes in your blood oxygen level.
+
+Intent - WORKING
+
+User:
+1.Can you please explain how oximeter works
+2.tell how oximeter works
+3.What is the working of oximeter?
+4.How does oximeter works?
+
+
+BOT:
+During a pulse oximetry reading, a small clamp-like device is placed on a finger, earlobe, or toe. Small beams of light pass through the blood in the finger, measuring the amount of oxygen. 
+It does this by measuring changes of light absorption in oxygenated or deoxygenated blood. This is a painless process.
+The pulse oximeter will thus be able to tell you your oxygen saturation levels along with your heart rate.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Intent - Error
+
+User:
+1. What should i do if no signal is obtained?
+2. My display is blank
+3. There is no reading in the oximeter
+4. Error in displaying readings
+5. why is there no reading in the oximeter?
+6. I can't see any readings in the oximeter. 
+
+BOT:
+Is the probe working and correctly positioned? Try another location. Does the patient have poor perfusion? 
+Check for low cardiac output especially due to hypovolemia, cardiac problems or septic
+shock. If hypotension is present, resuscitation of the patient is required immediately. The
+signal will improve when the clinical condition of the patient improves. 
+Check the temperature of the patient. If the patient or the limb is cold, gentle rubbing of
+the digit or ear lobe may restore a signal.
+If any of the above methods are not working, please respond "It still doesn't work"
+
+
+Intent- Oxygen
+
+User:
+1.HOW MUCH OXYGEN DOES THE BLOOD CARRY?
+2.What is the concentration of oxygen the blood carries?
+3.What is the normal oxygen level the blood carries?
+
+
+BOT: In a patient who is in good health, Each gram of haemoglobin combines with 1.34 ml of oxygen. 
+Anaemic patients have lower levels of haemoglobin and are therefore unable to carry as much
+oxygen in the blood at a haemoglobin concentration of less than 6g/dl
+
+User:
+1.WHAT IS OXYGEN SATURATION?
+2.What is meant by oxygen saturation?
+3.what does oxygen saturation mean?
+4. Tell me about oxygen saturation
+
+
+BOT:
+Red blood cells contain haemoglobin. One molecule of haemoglobin can carry up to four molecules
+of oxygen after which it is described as “saturated” with oxygen.100%. If the oxygen saturation is
+94% or lower, the patient is hypoxic and needs to be treated quickly. A saturation of less than 90%
+is a clinical emergency.
+
+
+
+Intent - Alarm
+
+USER:
+1. WHAT DO THE ALARMS ON A PULSE OXIMETER TELL YOU?
+2. An alarm went off.
+3. There is an alarm ringing in the oximeter
+4. why is an alarm ringing?
+5. what does the alarm ringing specify?
+6. There is sound coming from the oximeter.
+
+BOT:
+Alarms alert the anaesthetist to clinical problems. The following are the reasons an alarm might go off
+Low saturation emergency (hypoxia) i.e. SpO2 <90%. 
+No pulse detected
+Low pulse rate
+High pulse rate
+
+
+Intent - Factors
+
+User:
+1. WHAT ARE THE FACTORS THAT INTERFERE WITH THE PULSE OXIMETER READING?
+2. factors affecting the oximeter reading.
+3. it still doesn't work.
+4. interference with pulse oximeter.
+5. 
+
+BOT: 
+
+bright light directly on the probe may affect the reading
+Shivering – movement may make it difficult for the probe to pick up a signal
+Vasoconstriction reduces blood flow to the peripheries. The oximeter may fail to detect a signal
+if the patient is very cold and peripherally vasoconstricted.
+Carbon monoxide poisoning may give a falsely high saturation reading.
+
+Intent - oxygen
+
+USER:
+1. What to do when there is low oxygen saturation?
+2. Oxygen Saturation is low.
+3. The patient's oxygen saturation is considerably low
+4. What are the questions to ask when the oxygen saturation is low?
+5. points to considen with low oxgygen saturation.
+
+
+BOT:
+
+Whenever the patient has low oxygen saturations, administer high flow oxygen and consider
+‘ABCDE’:
+ A - airway clear?
+ B - breathing adequately?
+ C - circulation working normally?
+ D - drugs causing a problem?
+ E - equipment working properly?
+
